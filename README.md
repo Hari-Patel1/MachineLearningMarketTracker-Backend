@@ -1,5 +1,7 @@
 ﻿# MachineLearningMarketTracker-Backend
 to create the database structute, use:
+
+
 CREATE TABLE User (
 	Email VARCHAR(320) NOT NULL,
 	Password VARCHAR(128) NOT NULL,
@@ -68,3 +70,4 @@ CREATE TABLE CompanyInformation (
 	Name VARCHAR(320),
 	PRIMARY KEY (Ticker)
 );
+
