@@ -20,7 +20,9 @@ export class Stock {
             console.log("Connected to projectdb");
         });
 
+        //To add more tickers, append to the array
         const tickers = ["AAPL", "TSLA", "GOOGL", "AMZN", "MSFT", "NVDA"];
+        
 
         for (const ticker of tickers) {
             try {
